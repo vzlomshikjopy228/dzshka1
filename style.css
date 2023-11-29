@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.center{
+    display: flex;
+    height: 75%;
+    width: 100%;
+}
+.frame1{
+    background-color: rgb(245, 238, 230);
+}
+.frame2{
+    width: 20%;
+    height: 100%;
+    border-style: solid;
+    border-color: rgb(241, 156, 187);
+    border-width: 2px;
+    background-color: rgb(243, 215, 202);
+}
+.frame3{
+    width:80%;
+    height:100%;
+    border-style: solid;
+    border-color: rgb(241, 156, 187);
+    border-width: 2px;
+}
+.frame4{
+    width:100%;
+    height:20%;
+    background-color: rgb(230, 164, 180);
+}
+.list_item-frame1{
+    display:inline;
+    margin-right:4%;
+}
+.list_item-frame2{
+    display:inline;
+    margin-top: 4%;
+}
+.list-frame1{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+.list-frame2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+.image1{
+    display: flex;
+    width: 80%;
+    height: 40%;
+}
+.image2{
+    margin-left: 40%;
+    width: 20%;
+    height: 75%;
+}
+a{
+    color:rgb(200, 107, 133);
+}
